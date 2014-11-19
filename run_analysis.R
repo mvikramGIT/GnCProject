@@ -23,5 +23,14 @@ colnames(comdata) <- c("Subject","Activity",as.vector(features$V2))
 # Read Activity labels
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt", sep = "", header = FALSE)
 colnames(activity_labels) <- c("Activity", "Activity name")
+# Merge by activity labels to assign values to the activity labels
 comdata <- merge(activity_labels, comdata, by = "Activity")
 
+# Create selection vector with column names Subject, Activity name and Mean and Std values
+# this is done by subsetting by the search(grepl) results for strings in the column names of comdata
+findata <- comdata[ ,colnames(comdata)[grepl("Subject|Activity name|mean|std", colnames(comdata))]]
+
+# Calculate column means summarized by Subject and Activity 
+findata <- aggregate(findata[,3:81], data.frame(findata[,2], findata[,1]), mean)
+colnames(findata)[1:2] <- c("Subject", "Activity name") # Set first two column names
+write.table(findata, "FinalCleanData.txt", row.names = FALSE) # Write data to table
