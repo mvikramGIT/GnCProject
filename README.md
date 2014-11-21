@@ -6,7 +6,7 @@ Project for Getting and Cleaning Data
 The code run_analysis.R obtains data from smart phone inertial sensor tests. It runs with the data folder "UCI HAR Dataset" present in the working directory. These data were originally sourced from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The tidy data file is best read into R with the following command:
-tidy_data <- read.table("FinalCleanData.txt")
+tidy_data <- read.table("FinalCleanData.txt", header = TRUE)
 
 Lines 1-10
 The code first reads the features from features.txt, then the test_x(data) and test_y (outcome) from the corresponding files. It them obtains the subject ID list from subject_test.txt. The subject and measurement data are bound to the same datatable in testdata. 
