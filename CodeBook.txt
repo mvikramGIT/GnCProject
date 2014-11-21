@@ -1,3 +1,15 @@
+Refer to UCI HAR Dataset/features_info.txt for origins of these signals.
+
+Acceleration signals such as tBodyAcc-XYZ and tGravityAcc-XYZ) are in units of 'g' acceleration due to gravity.
+ 
+Gyro signals such as fBodyGyro-XYZ are in units of rad/s
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). These are in units of g/s and rad/s^2 respectively.
+
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). These have units of frequency - Hz
+
 "1" "Subject"
     Subject ID
 "2" "Activity.name"
