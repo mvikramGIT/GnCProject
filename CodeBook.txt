@@ -1,0 +1,162 @@
+"1" "Subject"
+    Subject ID
+"2" "Activity.name"
+    Activity practiced: Walking, Lying, Walking up, Walking down, Sitting, Standing
+"3" "tBodyAcc.mean...X"
+    Mean of measured body acceleration in the X axis, calculated mean for each subject for each activity
+"4" "tBodyAcc.mean...Y"
+    Mean of measured body acceleration in the Y axis, calculated mean for each subject for each activity
+"5" "tBodyAcc.mean...Z"
+    Mean of measured body acceleration in the Z axis, calculated mean for each subject for each activity
+"6" "tBodyAcc.std...X"
+    Standard Deviation of measured body acceleration in the X axis, calculated mean for each subject for each activity
+"7" "tBodyAcc.std...Y"
+    Standard Deviation of measured body acceleration in the Y axis, calculated mean for each subject for each activity
+"8" "tBodyAcc.std...Z"
+    Standard Deviation of measured body acceleration in the Z axis, calculated mean for each subject for each activity
+"9" "tGravityAcc.mean...X"
+    Mean of measured acceleration due to gravity in the X axis, calculated mean for each subject for each activity
+"10" "tGravityAcc.mean...Y"
+    Mean of measured acceleration due to gravity in the Y axis, calculated mean for each subject for each activity
+"11" "tGravityAcc.mean...Z"
+    Mean of measured acceleration due to gravity in the Z axis, calculated mean for each subject for each activity
+"12" "tGravityAcc.std...X"
+    Standard Deviation of measured acceleration due to gravity in the X axis, calculated mean for each subject for each activity
+"13" "tGravityAcc.std...Y"
+    Standard Deviation of measured acceleration due to gravity in the Y axis, calculated mean for each subject for each activity
+"14" "tGravityAcc.std...Z"
+    Standard Deviation of measured acceleration due to gravity in the Z axis, calculated mean for each subject for each activity
+"15" "tBodyAccJerk.mean...X"
+    Mean of calculated jerk in the X axis, calculated mean for each subject for each activity
+"16" "tBodyAccJerk.mean...Y"
+    Mean of calculated jerk in the Y axis, calculated mean for each subject for each activity
+"17" "tBodyAccJerk.mean...Z"
+    Mean of calculated jerk in the Z axis, calculated mean for each subject for each activity
+"18" "tBodyAccJerk.std...X"
+    Standard Deviation of calculated jerk in the X axis, calculated mean for each subject for each activity
+"19" "tBodyAccJerk.std...Y"
+    Standard Deviation of calculated jerk in the Y axis, calculated mean for each subject for each activity
+"20" "tBodyAccJerk.std...Z"
+    Standard Deviation of calculated jerk in the Z axis, calculated mean for each subject for each activity
+"21" "tBodyGyro.mean...X"
+    Mean of measured gryo in the X axis,calculated mean for each subject for each activity
+"22" "tBodyGyro.mean...Y"
+    Mean of measured gryo in the Y axis,calculated mean for each subject for each activity
+"23" "tBodyGyro.mean...Z"
+    Mean of measured gryo in the Z axis,calculated mean for each subject for each activity
+"24" "tBodyGyro.std...X"
+    Standard deviation of measured gryo in the X axis,calculated mean for each subject for each activity
+"25" "tBodyGyro.std...Y"
+    Standard deviation of measured gryo in the Y axis,calculated mean for each subject for each activity
+"26" "tBodyGyro.std...Z"
+    Standard deviation of measured gryo in the Z axis,calculated mean for each subject for each activity
+"27" "tBodyGyroJerk.mean...X"
+    Mean of calculated gyro jerk in the X axis, calculated mean for each subject for each activity
+"28" "tBodyGyroJerk.mean...Y"
+    Mean of calculated gyro jerk in the Y axis, calculated mean for each subject for each activity
+"29" "tBodyGyroJerk.mean...Z"
+    Mean of calculated gyro jerk in the Z axis, calculated mean for each subject for each activity
+"30" "tBodyGyroJerk.std...X"
+    Standard deviation of calculated gyro jerk in the X axis, calculated mean for each subject for each activity
+"31" "tBodyGyroJerk.std...Y"
+    Standard deviation of calculated gyro jerk in the Y axis, calculated mean for each subject for each activity
+"32" "tBodyGyroJerk.std...Z"
+    Standard deviation of calculated gyro jerk in the Z axis, calculated mean for each subject for each activity
+"33" "tBodyAccMag.mean.."
+    MEan Euclidian norm of tri-axial acceleration,calculated mean for each subject for each activity
+"34" "tBodyAccMag.std.."
+    Standard Deviation of Euclidian norm of tri-axial acceleration,calculated mean for each subject for each activity
+"35" "tGravityAccMag.mean.."
+    Mean Euclidian norm of graviational acceleration,calculated mean for each subject for each activity
+"36" "tGravityAccMag.std.."
+    Standard Deviation of Euclidian norm of tri-axial acceleration,calculated mean for each subject for each activity
+"37" "tBodyAccJerkMag.mean.."
+    MEan of Euclidian norm of tri-axial jerk, calculated mean for each subject for each activity
+"38" "tBodyAccJerkMag.std.."
+Standard Deviation of Euclidian norm of tri-axial jerk, calculated mean for each subject for each activity
+"39" "tBodyGyroMag.mean.."
+    Mean of Euclidian norm of gyro, calculated mean for each subject for each activity
+"40" "tBodyGyroMag.std.."
+    Standard deviation of Euclidian norm of gyro, calculated mean for each subject for each activity
+"41" "tBodyGyroJerkMag.mean.."
+    Mean of Euclidian norm of gyro jerk, calculated mean for each subject for each activity
+"42" "tBodyGyroJerkMag.std.."
+    Standard deviation of Euclidian norm of gyro jerk , calculated mean for each subject for each activity
+"43" "fBodyAcc.mean...X"
+    Mean FFT of Body acceleration in the X axis, calculated mean for each subject for each activity
+"44" "fBodyAcc.mean...Y"
+    Mean FFT of Body acceleration in the Y axis, calculated mean for each subject for each activity
+"45" "fBodyAcc.mean...Z"
+    Mean FFT of Body acceleration in the Z axis, calculated mean for each subject for each activity
+"46" "fBodyAcc.std...X"
+    Standard Deviation of FFT of Body acceleration in the X axis, calculated mean for each subject for each activity
+"47" "fBodyAcc.std...Y"
+    Standard Deviation of FFT of Body acceleration in the Y axis, calculated mean for each subject for each activity
+"48" "fBodyAcc.std...Z"
+    Standard Deviation of FFT of Body acceleration in the Z axis, calculated mean for each subject for each activity
+"49" "fBodyAcc.meanFreq...X"
+    Mean FFT of Body acceleration in the X axis, calculated mean for each subject for each activity
+"50" "fBodyAcc.meanFreq...Y"
+    Mean FFT of Body acceleration in the Y axis, calculated mean for each subject for each activity
+"51" "fBodyAcc.meanFreq...Z"
+    Mean FFT of Body acceleration in the Z axis, calculated mean for each subject for each activity
+"52" "fBodyAccJerk.mean...X"
+    Mean FFT of Body jerk in the X axis, calculated mean for each subject for each activity
+"53" "fBodyAccJerk.mean...Y"
+    Mean FFT of Body jerk in the Y axis, calculated mean for each subject for each activity
+"54" "fBodyAccJerk.mean...Z"
+    Mean FFT of Body jerk in the Z axis, calculated mean for each subject for each activity
+"55" "fBodyAccJerk.std...X"
+    Standard deviation of FFT of Body jerk in the X axis, calculated mean for each subject for each activity
+"56" "fBodyAccJerk.std...Y"
+    Standard deviation of FFT of Body jerk in the Y axis, calculated mean for each subject for each activity
+"57" "fBodyAccJerk.std...Z"
+    Standard deviation of FFT of Body jerk in the Z axis, calculated mean for each subject for each activity
+"58" "fBodyAccJerk.meanFreq...X"
+    Mean Freq of Body acceleration in the X axis, calculated mean for each subject for each activity
+"59" "fBodyAccJerk.meanFreq...Y"
+    Mean Freq of Body acceleration in the Y axis, calculated mean for each subject for each activity
+"60" "fBodyAccJerk.meanFreq...Z"
+    Mean Freq of Body acceleration in the Z axis, calculated mean for each subject for each activity
+"61" "fBodyGyro.mean...X"
+    Mean Freq of Body gyro in the X axis, calculated mean for each subject for each activity
+"62" "fBodyGyro.mean...Y"
+    Mean Freq of Body gyro in the Y axis, calculated mean for each subject for each activity
+"63" "fBodyGyro.mean...Z"
+    Mean Freq of Body gyro in the Z axis, calculated mean for each subject for each activity
+"64" "fBodyGyro.std...X"
+    Standard Deviation of Freq of Body gyro in the X axis, calculated mean for each subject for each activity
+"65" "fBodyGyro.std...Y"
+    Standard Deviation of Freq of Body gyro in the Y axis, calculated mean for each subject for each activity
+"66" "fBodyGyro.std...Z"
+    Standard Deviation of Freq of Body gyro in the Z axis, calculated mean for each subject for each activity
+"67" "fBodyGyro.meanFreq...X"
+    Mean Freq of Body gyro in the X axis, calculated mean for each subject for each activity
+"68" "fBodyGyro.meanFreq...Y"
+    Mean Freq of Body gyro in the Y axis, calculated mean for each subject for each activity
+"69" "fBodyGyro.meanFreq...Z"
+    Mean Freq of Body gyro in the Z axis, calculated mean for each subject for each activity
+"70" "fBodyAccMag.mean.."
+    Mean Freq of Body gyro norm, calculated mean for each subject for each activity
+"71" "fBodyAccMag.std.."
+    Standard deviation of Freq of Body gyro norm, calculated mean for each subject for each activity
+"72" "fBodyAccMag.meanFreq.."
+    Mean Freq of Body gyro norm, calculated mean for each subject for each activity
+"73" "fBodyBodyAccJerkMag.mean.."
+    Mean Freq of Body jrek norm, calculated mean for each subject for each activity
+"74" "fBodyBodyAccJerkMag.std.."
+    Standard deviation of Freq of Body gyro norm, calculated mean for each subject for each activity
+"75" "fBodyBodyAccJerkMag.meanFreq.."
+    Mean Freq of Body jerk norm, calculated mean for each subject for each activity
+"76" "fBodyBodyGyroMag.mean.."
+    Mean Freq of Body gyro norm, calculated mean for each subject for each activity
+"77" "fBodyBodyGyroMag.std.."
+    Standard deviation of Freq of Body gyro norm, calculated mean for each subject for each activity
+"78" "fBodyBodyGyroMag.meanFreq.."
+    Mean Freq of Body gyro norm, calculated mean for each subject for each activity
+"79" "fBodyBodyGyroJerkMag.mean.."
+    Mean Freq of Body gyro jerk norm, calculated mean for each subject for each activity
+"80" "fBodyBodyGyroJerkMag.std.."
+    Standard deviation of Freq of Body gyro jerk norm, calculated mean for each subject for each activity
+"81" "fBodyBodyGyroJerkMag.meanFreq.."
+    Mean Freq of Body gyro jerk norm, calculated mean for each subject for each activity
